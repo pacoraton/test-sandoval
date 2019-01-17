@@ -1,0 +1,398 @@
+
+
+
+body{
+    background: white;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*---nav---*/
+.iconos {
+    font-size: 25px;
+    font-weight: lighter;
+}
+.ico-sup{
+font-size: 10px;
+margin-left: 15px;
+}
+.ico-sup i{
+    margin-left: 15px;
+}
+.enlaces a span{
+    font-weight: 800;
+    color: black;
+    padding: 0 30px;
+}
+
+.enlaces a:hover{
+    background: #f2f2f2;
+}
+
+.ico-nav{
+    margin-left: 20px;
+}
+
+
+/*---slider---*/
+
+.slider .col{
+ padding: 0px;
+ overflow: hidden;
+ margin: 0 auto;
+}
+.anterior{
+    color: #417505;
+}
+
+
+.anterior,
+.siguiente {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: .5px solid black;
+  background:white;
+}
+
+.siguiente:after
+{
+  content: '>';
+  font-size: 55px;
+  color:#417505;
+}
+
+.anterior:after {
+  content: '<';
+  font-size: 55px;
+  color:#417505;
+}
+
+.mensaje-carousel{
+   
+    background:  rgba(255, 255, 255, 0.7); 
+    margin-bottom: 200px;
+    color:#417505;
+    
+}
+.mensaje-carousel h1{
+    padding-top: 40px;
+}
+.carousel-indicators{
+    padding-bottom: 35px;
+
+}
+
+/*----Platillos---*/
+.contenedor{
+    width: 80%;
+    margin: 0 auto;
+}
+.seccion{
+    padding: 20px 0;
+   }
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul.lista-platillos li{
+    margin-top: -70px;
+    padding: 10px;
+    float: left;
+    width: 33.3%;
+    margin-bottom: 50px;
+}
+
+/*
+@media only screen and (min-width: 480px){
+    ul.lista-platillos li{
+     width: 20%;
+   } 
+ }
+ 
+ @media only screen and (min-width: 768px){
+    ul.lista-platillos li{
+     width: 33.3%;
+   } 
+ }
+*/
+ 
+div.platillo{
+    position: relative;
+    overflow: hidden;
+}
+
+div.platillo img{
+    max-width: 100%;
+}
+
+div.platillo p{
+    position: absolute;
+    bottom: 140px;
+    left: 15px;
+    padding: 15px 10px;
+    margin: 0;
+    /*background-color: rgba(0,0,0,0.55);*/
+    width: 40%;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+div.platillo a{
+    position: absolute;
+    bottom: 20px;
+    left: 200px;
+    background: #417505;
+}
+
+/*---Seccion nosotros---*/
+.item-nosotros{
+    float:left;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    margin: 25px 20px;
+    text-align: center;
+    padding: 10px 20px;
+    
+}
+
+.item-nosotros h6{
+    font-weight: bold;
+  
+}
+
+.item-nosotros p{
+    font-size: 12px;
+}
+
+#separacion{
+    background-image: url(../imgs/line.png);
+    background-repeat: repeat-x;
+    text-align: center;
+    width: 100%;
+    height: 8px;
+    margin:0 auto;
+    margin-bottom: 50px;
+}
+
+
+.item-productos-nue{
+    float: left;
+    margin-left: 15px;
+}
+.item-productos-nue h6{
+    text-align: center;
+}
+
+.item-productos-nue .precio-item{
+    color: #417505;
+    font-weight: bold;
+    text-align: center;
+}
+.item-productos-nue a {
+margin-left: 45px;
+margin-bottom: 30px;
+}
+.item-productos-nue .btn{
+    background: #417505;
+    
+}
+
+
+ .galeria .contenedor-imagen{
+	margin-bottom: 40px;
+	max-height: 250px;
+	overflow: hidden;
+}
+
+ .galeria .contenedor-imagen div{
+ background: #3da5e2;
+ display: inline-block;
+
+}
+
+
+
+
+.card-columns .nuevos-pro{
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----Blog Platillos-------*/
+
+div.platillo-2, div.platillo-3{
+    position: relative;
+    overflow: hidden;
+}
+
+div.platillo-2 img{
+    max-width: 100%;
+}
+div.platillo-3 img{
+    max-width: 100%;
+}
+
+div.platillo-2 p{
+    position: absolute;
+    bottom: 200px;
+    left: 15px;
+    padding: 15px 10px;
+    margin: 0;
+    /*background-color: rgba(0,0,0,0.55);*/
+    width: 40%;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+div.platillo-3 p{
+    position: absolute;
+    bottom: 70px;
+    left: 300px;
+    padding: 15px 10px;
+    margin: 0;
+    /*background-color: rgba(0,0,0,0.55);*/
+    width: 40%;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+div.platillo-4 p{
+    position: absolute;
+    bottom: 150px;
+    left: 850px;
+    padding: 15px 10px;
+    margin: 0;
+    /*background-color: rgba(0,0,0,0.55);*/
+    width: 10%;
+    font-family: 'Raleway', sans-serif;
+    text-align: end;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+div.platillo-2 a{
+    position: absolute;
+    bottom: 20px;
+    left: 400px;
+    background: #417505;
+}
+
+div.platillo-3 a{
+    position: absolute;
+    bottom: 20px;
+    left: 400px;
+    background: #417505;
+}
+div.platillo-4 a{
+    position: absolute;
+    bottom: 110px;
+    left: 870px;
+    background: #417505;
+}
+
+.segundo{
+    float:left;
+}
+
+
+/*--footer---*/
+
+#fondo-footer{
+    background-image: url(../imgs/img.png);
+    height: 150px;
+    margin:0 auto;
+    
+
+}
+footer{
+    /*background-image: url(../imgs/img.png);*/
+    padding-top: 40px;
+    background-color: #F3F3F3;
+    height: 300px;
+    background-repeat: no-repeat;
+    
+}
+footer h5{
+    color: #417505;
+    text-align: left;
+}
+
+
+.footer-nosotros p{
+    text-align: justify;
+    font-size: 14px;
+}
+.footer-menu{
+
+    text-align: left;
+}
+footer .footer-menu .redes-sociales a{
+    color: #417505;
+    font-size: 1.4em;
+    margin-right: 30px;
+}
+.footer-menu .metodos-pago a{
+    margin-right: 20px;
+}
+input[type="text"] {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  .footer-noticias a{
+      float: right;
+      widows: 100%;
+  }
+  .btn-suscribe{
+      background: #417505;
+      
+  }
+  .copyright{
+      font-size: 10px;;
+  }

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GreenFood</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row justify-content-between">
+                <div class="ico-sup col-4 "><i class="fas fa-phone-volume"></i> + 33 3882 3312</div>
+                <div class="ico-sup col-2"><i class="far fa-user"></i> User</div>
+                
+            </div>
+            <hr>
+            <!--Logotipo y Menu-->
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-expand-md navbar-light bg-faded "> 
+                            <div class="container">   
+                                <a href="#" class="navbar-brand"><img src="imgs/Green-Food-logo.png" alt="logo" width="60px"></a> 
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                                        <span class="navbar-toggler-icon"></span>
+                                </button>
+
+                                        <div class="collapse navbar-collapse w-100 ml-auto align-items-center" id="navbar" >
+                                            <ul class="navbar-nav w-100 justify-content-center">
+                                                <li class="nav-item enlaces">
+                                                    <a href="#" class="nav-link"><span>INICIO</span></a>
+                                                </li>
+                                                <li class="nav-item enlaces">
+                                                        <a href="#Nosotros" class="nav-link"><span>SOBRE NOSOTROS</span></a>
+                                                </li>
+                                                <li class="nav-item enlaces">
+                                                        <a href="#platillos" class="nav-link"><span>CATEGORIAS</span></a>
+                                                </li>
+                                                <li class="nav-item enlaces">
+                                                        <a href="#blog" class="nav-link"><span>BLOG</span></a>
+                                                </li>
+                                                <li class="nav-item enlaces">
+                                                        <a href="#" class="nav-link"><span>CONTÁCTANOS</span></a>
+                                                </li>
+
+                                                <li class="ico-nav"> <i class="iconos fas fa-search"></i></li>
+                                                
+                                                <li class="ico-nav"> <i class="iconos fas fa-shopping-bag"></i></li>
+                                            </ul>
+                                     </div>           
+                            </div>         
+                    </nav>
+                 </div>
+             </div>
+                   
+    </header>
+
+    <main>          
+                  <!--Slider-->
+                    <div class="row slider">
+                        <div class="col">
+                            <div class="carousel slide" id="slider" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#slider" data-slide-to="0" class="active"></li>
+                                    <li data-target="#slider" data-slide-to="1"></li>
+                                    <li data-target="#slider" data-slide-to="2"></li>
+                                </ol>
+                               <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="carousel-caption d-block mensaje-carousel">
+                                            <h1>Calidad y el Mejor precio</h1>
+                                            <p>Deliciosa comida organica lista para servir</p>
+                                            <a href="#" class="btn  btn-outline-success btn-lg ">Ver mas</a>
+                                        </div>
+                                        <img src="imgs/b2.png" alt="Imagen #1" class="d-block img-fluid">
+                                    </div>
+                                    <div class="carousel-item ">
+                                            <img src="imgs/b3.png" alt="Imagen #2" class="d-block img-fluid">
+                                    </div>
+                                    <div class="carousel-item ">
+                                            <img src="imgs/b4.png" alt="Imagen #3" class="d-block img-fluid">
+                                    </div>
+                               </div>
+
+                               <a href="#slider" class="carousel-control-prev" data-slide="prev">
+                                   <span class="carousel-control-prev-icon anterior" aria-hidden=true></span>
+                                   <span class="sr-only">Anterior</span>
+                               </a>
+                               <a href="#slider" class="carousel-control-next" data-slide="next">
+                                    <span class="carousel-control-next-icon siguiente" aria-hidden=true></span>
+                                    <span class="sr-only">Siguiente</span>
+                                </a>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!--Platillos-->
+                    <div class="row" id="platillos" >
+                        <div class="col">
+                            <section class="platillos contenedor seccion">
+                                    
+                                    <ul class="lista-platillos clearfix">
+                                    <li>
+                                        <div class="platillo"> 
+                                            <img src="imgs/123.png" alt="Frutas">
+                                            <p>Organic Fruit</p>
+                                            <a href="#" class="btn  btn-success  ">Ver mas</a>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="platillo"> 
+                                            <img src="imgs/12.png" alt="Vegetales">
+                                            <p>Organic Vegetables</p>
+                                            <a href="#" class="btn  btn-success">Ver mas</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="platillo"> 
+                                            <img src="imgs/13.png" alt="Especias">
+                                            <p>Kitchen Spices</p>
+                                            <a href="#" class="btn  btn-success ">Ver mas</a>
+                                        </div>
+                                    </li>
+                                    </ul>  
+                            </section>
+                        </div>   
+                   </div>
+
+
+                    <!--Sobre nosotros-->
+
+                    <div class="row offset-1" id="Nosotros">
+                        <div class="col-4">
+                            <div class="imagen-nosotros">
+                                <img class="img-fluid " src="imgs/Background.png" alt="Sobre Nosotros">
+
+                            </div>
+                        </div>
+
+                            <div class="col-8">
+                                    <h2 class="text-center">Somos Green Food</h2>
+                                    <p class="text-center mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa suscipit cupiditate odit enim dolorem praesentium odio,
+                                            eveniet at quia quibusdam est ullam culpa unde dignissimos vitae aut, repellendus voluptate aperiam maiores!
+                                           Reprehenderit, aliquid quod nam praesentium tempore nostrum ab illum.
+                                    </p>
+                                    <div id="separacion">
+                                        
+                                    </div>
+
+                                    <div class="item-nosotros">
+                                        <img src="imgs/Combined shape 41281.png">
+                                        <h6 class="titulo-nosotros">Envio Gratis</h6>
+                                        <p>En pedidos mayores a  MXN 500</p>
+                                        
+                                    </div>
+                                    <div class="item-nosotros">
+                                            <img class="align-content-center" src="imgs/Combined shape 41278.png">
+                                            <h6 class="titulo-nosotros">Atencion a cliente</h6>
+                                            <p>24/7</p>
+                                    </div>
+                                    <div class="item-nosotros">
+                                            <img src="imgs/Combined shape 41279.png">
+                                            <h6 class="titulo-nosotros">Siempre Contigo</h6>
+                                            <p>Productos del campo a tu casa</p>
+                                    </div>
+                                    <div class="item-nosotros">
+                                            <img src="imgs/Combined shape 41280.png">
+                                            <h6 class="titulo-nosotros">Contactanos</h6>
+                                            <p>+3366885479</p>
+                                    </div>
+                            </div>
+                    
+
+                    </div>
+
+
+
+                    <!--Nuevos productos-->
+                        <script>
+                            /* fetch('https://test-sandoval.000webhostapp.com/latestProducts.js')
+                             .then((respuesta)=>{
+                                 return respuesta.json();
+                             }).then((respuesta)=>{
+                                  console.log(respuesta.products);
+
+                                  incompleto
+                             })*/
+                        </script>
+                   <div class="row offset-1 mt-5">
+                       <div class="col">
+                           <h3>Ultimos Productos</h3>
+                            <div class="item-productos-nue">
+                                <img src="imgs/5.png">
+                                <h6 class="titulo-nosotros" name="nombre" id="nombre">Nombre producto</h6>
+                                <p class="precio-item">$ 1980 MXN</p>
+                                <a href="#" class="btn  btn-success ">Añadir a la Cesta</a>
+                            </div>
+                            <div class="item-productos-nue">
+                                    <img class="align-content-center" src="imgs/2.png">
+                                    <h6 class="titulo-nosotros">Nombre producto</h6>
+                                    <p class="precio-item">$ 1980 MXN</p>
+                                    <a href="#" class="btn  btn-success ">Añadir a la Cesta</a>
+                            </div>
+                            <div class="item-productos-nue">
+                                    <img src="imgs/1.png">
+                                    <h6 class="titulo-nosotros">Nombre producto</h6>
+                                    <p class="precio-item">$ 1980 MXN</p>
+                                    <a href="#" class="btn  btn-success ">Añadir a la Cesta</a>
+                            </div>
+                            <div class="item-productos-nue">
+                                    <img src="imgs/Rectangle 4.png">
+                                    <h6 class="titulo-nosotros">Nombre producto</h6>
+                                    <p class="precio-item">$ 1980 MXN</p>
+                                    <a href="#" class="btn  btn-success ">Añadir a la Cesta</a>
+                            </div>
+
+                            
+                        </div>
+
+                     </div>
+
+
+               <!--Blog-->
+
+                <div class="row" id="blog" >
+                        <div class="col">
+                            <section class="platillos-2 contenedor seccion">
+                                    
+                                    <ul class="lista-platillos-2 clearfix">
+                                        <li class="col-6 segundo">
+                                            <div class="platillo-2"> 
+                                                <img src="imgs/Rectangle 5.png" alt="Frutas">
+                                                <p>Saludable y Delicioso</p>
+                                                <a href="#" class="btn  btn-success  ">Ver mas</a>
+
+                                            </div>
+                                        </li>
+                                        <li class="col-6 segundo"> 
+                                            <div class="platillo-3"> 
+                                                <img src="imgs/Rectangle 5 Copy.png" alt="Vegetales">
+                                                <p>Momentos Dulces</p>
+                                                <a href="#" class="btn  btn-success">Ver mas</a>
+                                            </div>
+                                        </li>
+                                    </ul>  
+                                    
+                                            <div class="platillo-4 col-12 mt-2 "  > 
+                                                <img class="img-fluid" src="imgs/Rectangle 5 Copy 2.png" alt="Especias">
+                                                <p>El Sabor de lo unico</p>
+                                                <a href="#" class="btn  btn-success ">Ver mas</a>
+                                            </div>
+                                    
+                            </section>
+                        </div>   
+                </div> 
+</main>
+<div id="fondo-footer">
+
+</div>
+<footer>
+        <div class="row">
+                <div class="footer-nosotros col-3">
+                      <h5>Sobre nosotros</h5>
+                      <p>Durante mas de 15 años hemos sido referente a nivel estatal por la calidad de nuestros alimentos,
+                        del campo y preparados y contamos con procesos de produccion con certificacion ISO 27400</p>
+                </div>
+                
+                <div class="footer-informacion col-3">
+                  <h5>Informacion</h5>
+                    <p>Entrega</p>
+                    <p>Terminos y Condiciones</p>
+                    <p>Sobre Nosotros</p>
+                    <p>Pago seguro</p>
+                    <p>Nuestras tiendas</p>
+                </div> 
+           
+          <div class="footer-menu col-3">
+              <h5>Redes Sociales</h5>	
+              <nav class="redes-sociales">
+               <a href="#"><i class="fab fa-twitter-square"></i></a>
+               <a href="#"><i class="fab fa-facebook-square"></i></a>
+               <a href="#"><i class="fab fa-youtube-square"></i></a>
+               <a href="#"><i class="fab fa-google-plus-g"></i></a>
+             </nav>
+             <br><br>
+             <h5>Metodos de Pago</h5>
+             <nav class="metodos-pago">
+                    <a href="#"><img src="imgs/payment_paypal.png"></a>
+                    <a href="#"><img src="imgs/payment_visa.png"></a>
+                    <a href="#"><img src="imgs/payment_express.png"></a>
+                    <a href="#"><img src="imgs/Skrill.png"></a>
+            </nav>
+        </div>	
+      <div class="col-3 footer-noticias">
+            <h5>Enterate de las ultimas noticias</h5>
+            <p>Disfruta de las novedades en alimentacion y nuevos productos que Fresh food te ofrece </p>
+            <input class="form-text" type="text" placeholder="Ingresa tu correo electronico">
+            <a href="#" class="btn btn-suscribe  btn-success "> Suscribirme</a>
+
+      </div>
+    
+    </div>  
+
+      <p class="copyright">
+           Copyright  &copy; 2019 Fresh Food - Todos los derechos reservados  
+      </p>
+      
+  </footer>
+
+
+
+
+
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
